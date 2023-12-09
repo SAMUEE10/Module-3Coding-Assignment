@@ -1,0 +1,64 @@
+body {
+    background-color: #59a7f5; /* Cambié el color de fondo a un tono más oscuro */
+    color: #ecf0f1; /* Cambié el color del texto a blanco */
+    font-family: 'Verdana', sans-serif; /* Cambié la fuente de letra a Verdana */
+  }
+  
+  .navbar {
+    border: none;
+    background-color: #1a75cf; /* Cambié el color de la barra de navegación a un tono más oscuro */
+    color: #ecf0f1;
+  }
+  
+  .glyphicon {
+    font-size: 30px;
+    color: #3498db; /* Cambié el color del ícono a un tono más claro */
+  }
+  
+  .container {
+    background-color: #ecf0f1; /* Cambié el color de fondo del contenedor principal a un tono más claro */
+    margin-top: 20px;
+  }
+  
+  h1, h2 {
+    text-align: center;
+    color: #3498db; /* Cambié el color del texto del encabezado a un tono más claro */
+  }
+  
+  nav ul {
+    margin-top: 15px;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin-right: 15px;
+  }
+  
+  section {
+    margin-top: 20px;
+  }
+  
+  @media (max-width: 767px) {
+    nav ul {
+      display: none;
+    }
+  
+    nav .navbar-toggle {
+      display: block;
+    }
+    
+    .navbar-collapse {
+      background-color: #1a75cf; /* Cambié el color de fondo del menú desplegable a un tono más oscuro */
+    }
+    
+    .navbar-nav {
+      display: block;
+      text-align: center;
+    }
+    
+    .navbar-nav li {
+      display: block;
+      margin: 10px 0;
+    }
+  }
+  
